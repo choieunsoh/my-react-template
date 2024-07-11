@@ -1,0 +1,15 @@
+node_module
+.next
+_static
+.husky
+.git*
+Dockerfile*
+*.yml
+*.yaml
+helm
+database
+*.md
+.eslintrc.json
+*ignore
+.aws
+*.iso
