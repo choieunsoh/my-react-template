@@ -22,12 +22,6 @@
       "prettier --write --ignore-unknown"
     ]
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged --concurrent false",
-      "pre-push": "pnpm lint && pnpm build"
-    }
-  },
   "dependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
